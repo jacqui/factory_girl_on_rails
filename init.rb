@@ -1,4 +1,4 @@
-config.gem 'thoughtbot-factory_girl', :lib => 'factory_girl', :source => 'http://gems.github.com'
+config.gem 'factory_girl', :source => 'http://gemcutter.org'
 
 config.after_initialize do
   %w(test spec).each do |dir|
